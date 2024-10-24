@@ -1,24 +1,29 @@
 import React from 'react';
+import John from "./assets/team/john.jpeg"
+import Jane from "./assets/team/jane.jpeg"
+import Karen from "./assets/team/karen.jpg"
+import Mike from "./assets/team/mike.jpeg"
+
 
 const Team = () => {
   const teamMembers = [
     {
-      img: "img/team/01.jpg",
+      img: John,
       name: "John Doe",
       job: "Director",
     },
     {
-      img: "img/team/02.jpg",
+      img: Mike,
       name: "Mike Doe",
       job: "Senior Executive Assistant",
     },
     {
-      img: "img/team/03.jpg",
+      img: Jane,
       name: "Jane Doe",
       job: "Project Manager",
     },
     {
-      img: "img/team/04.jpg",
+      img: Karen,
       name: "Karen Doe",
       job: "Client Relations Manager",
     },

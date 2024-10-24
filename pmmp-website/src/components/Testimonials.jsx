@@ -1,20 +1,23 @@
 import React from 'react';
 import Jane from "./assets/testimonials/maria.jpg"
+import David from "./assets/testimonials/david.jpg"
+import fem from "./assets/testimonials/fem1.jpeg"
+
 
 const Testimonials = () => {
   const testimonials = [
     {
-      img: "./assets/testimonials/maria.jpg",
+      img: Jane,
       text: "\"PMMP has transformed how I manage my business. Their support has been invaluable in handling the day-to-day tasks, allowing me to focus on growth.\"",
       name: "Jane Smith",
     },
     {
-      img: "img/testimonials/02.jpg",
+      img: David,
       text: "\"As a solopreneur, I was overwhelmed by admin tasks. PMMP stepped in and handled everything professionally, giving me back precious time.\"",
       name: "David Johnson",
     },
     {
-      img: "img/testimonials/03.jpg",
+      img: fem,
       text: "\"Their team is detail-oriented and proactive. I highly recommend PMMP for anyone looking to streamline their business operations.\"",
       name: "Maria Lopez",
     },
@@ -39,7 +42,7 @@ const Testimonials = () => {
               <img
                 src={testimonial.img}
                 alt={testimonial.name}
-                className="w-16 h-16 rounded-full mx-auto mb-4 border-4 border-yellow-300"
+                className="w-16 h-16 rounded-full mx-auto mb-4 border-4 border-yellow-300 overflow-hidden"
               />
               <p className="text-yellow-100 italic mb-4">
                 {testimonial.text}
