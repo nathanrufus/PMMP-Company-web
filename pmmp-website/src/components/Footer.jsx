@@ -9,10 +9,10 @@ const Footer = () => {
           <div className="text-center md:text-left">
             <h3 className="text-xl font-bold mb-2">PMMP Company</h3>
             <p className="text-gray-300">
-              1234 Business Park, Suite 100, New York, NY 12345
+            85 aptos avenue, San Francisco
             </p>
-            <p className="text-gray-300 mt-1">Phone: +1 987 654 3210</p>
-            <p className="text-gray-300 mt-1">Email: info@pmmpcompany.com</p>
+            <p className="text-gray-300 mt-1">Phone: +254 797 468010</p>
+            <p className="text-gray-300 mt-1">Email: jacobrotich2018@gmail.com</p>
           </div>
 
           <div className="text-center md:text-left">

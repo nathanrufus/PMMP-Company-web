@@ -14,13 +14,13 @@ const Contact = () => {
         
         <div className="bg-white bg-opacity-10 p-8 rounded-lg shadow-md max-w-lg mx-auto">
           <p className="mb-4">
-            <strong>Address:</strong> 1234 Business Park, Suite 100, New York, NY 12345
+            <strong>Address:</strong> 85 aptos avenue, San Francisco
           </p>
           <p className="mb-4">
-            <strong>Phone:</strong> +1 987 654 3210
+            <strong>Phone:</strong> +254 797 468010
           </p>
           <p className="mb-4">
-            <strong>Email:</strong> info@pmmpcompany.com
+            <strong>Email:</strong> jacobrotich2018@gmail.com
           </p>
           
           <div className="flex justify-center space-x-4 mt-6">
